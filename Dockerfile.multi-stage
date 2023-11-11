@@ -1,0 +1,25 @@
+# --------------- builder --------------- #
+FROM node:18 AS builder
+
+WORKDIR /opt/build
+
+COPY package.json .
+COPY yarn.lock .
+RUN yarn install
+
+COPY . .
+
+RUN yarn build
+
+# --------------- package --------------- #
+FROM node:18-alpine AS deploy
+
+WORKDIR /app
+COPY --from=builder /opt/build/.next ./.next
+COPY --from=builder /opt/build/node_modules ./node_modules
+COPY --from=builder /opt/build/public ./public
+COPY --from=builder /opt/build/next.config.js ./
+COPY --from=builder /opt/build/package.json ./
+
+EXPOSE 3000
+CMD [ "yarn", "start", "-H", "0.0.0.0" ]
