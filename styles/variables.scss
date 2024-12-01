@@ -1,0 +1,98 @@
+$font-family-sans-serif: 'Prompt', system-ui, -apple-system, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !default;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$success: #c9d369;
+$info: #00b5ff;
+$warning: #f4cf6e;
+$danger: #dc3545;
+$light: $gray-100;
+$dark: #2f4858;
+$gray-2: #f5f5f5;
+$info-2: #f2f9f9;
+$light-green: #f6fae3;
+$alert-success: #a9e8b8;
+$alert-error: #f8d7da;
+$red-2: #ff8c7a;
+
+$theme-colors: (
+        'secondary': $secondary,
+        'primary': $primary,
+        'tertiary': $tertiary,
+        'success': $success,
+        'info': $info,
+        'warning': $warning,
+        'danger': $danger,
+        'light': $light,
+        'dark': $dark,
+        'gray-2': $gray-2,
+        'info-2': $info-2,
+        'alert-success': $alert-success,
+        'alert-error': $alert-error,
+        'red-2': $red-2,
+);
+
+$link-decoration: none;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  // lg: 990px,
+  lg: 1050px,
+  xl: 1140px,
+  // xl: 1140px,
+  // xxl: 1320px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  // custom main breakpoint
+  main: 991.98px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$aspect-ratios: (
+  '1x1': 100%,
+  '4x3': calc(3 / 4 * 100%),
+  '16x9': calc(9 / 16 * 100%),
+  '21x9': calc(9 / 21 * 100%),
+  'fb': calc(1 / 1.91 * 100%)
+);
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 2rem,
+  8: 1.5rem,
+  9: 1.25rem,
+  10: 1rem,
+  11: 0.875rem,
+  12: 0.75rem,
+  13: 0.5rem
+);
+
+$font-weight-bold: 500;
+$body-color: rgba($dark, 0.8);
+$text-muted: rgba($dark, 0.5);
+$border-radius-pill: 50rem;
+$btn-border-radius: $border-radius-pill;
+$btn-border-radius-sm: $border-radius-pill;
+$btn-border-radius-lg: $border-radius-pill;
+$min-contrast-ratio: 2.5;
+$font-size-base: 1.2rem;
+$font-size-sm: $font-size-base * 0.75;
+$font-size-lg: $font-size-base * 1.25;
+$headings-color: $dark;
+$border-radius: 0.5rem;
+$border-radius-sm: 0.25rem;
+$border-radius-lg: 1rem;
