@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>undefined</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/account</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/appointment</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/contact</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/download-images</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/faq</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/favorite</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/interest</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/landing</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/login</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/performance-dashboard</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/privacy</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/property-search</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/terms</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>undefined/user-profile</loc><lastmod>2023-11-11T06:13:23.900Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>
